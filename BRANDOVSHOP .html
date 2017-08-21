@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+            <title>BRANDOVSHOP - Кращі товари та послуги в Інтернеті</title>
+        
+                        <style type="text/css">
+    /* cyrillic-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/sTdaA6j0Psb920Vjv-mrzH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/uYECMKoHcO9x1wdmbyHIm3-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    /* latin-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/Ks_cVxiCiwUWVsFWFA3Bjn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    }
+    /* cyrillic-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/ZLqKeelYbATG60EpZBSDy4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/oOeFwZNlrTefzLYmlVV1UIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    }
+    /* cyrillic-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/77FXFjRbGzN4aCrSFhlh3oX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHToX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/97uahxiqZRoncBaCEI3aW4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    }
+    /* cyrillic-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v15/WxrXJa0C3KdtC7lMafG4dRkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v15/OpXUqTo0UgQQhGj_SFdLWBkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v15/vSzulfKSK0LLjjfeaxcREhkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v15/vPcynSL0qHq_6dX7lKVByXYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    }
+    /* cyrillic-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC_ZraR2Tg8w2lzm7kLNL0-w.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC14sYYdJg5dU2qzJEVSuta0.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC6E8kM4xWR1_1bYURRojRGc.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC4gp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    }
+</style>
+    <link href="//s.siteapi.org/frontend/static/grid_9/css/themes/white/styles-3c29455f21.css"
+          media="screen"
+          rel="stylesheet"
+          type="text/css"/>
+        
+        
+             
+    
+</head>
+<body id="top-body"
+      class="site site_main-page "
+      data-html-version="98546772348923498"
+      data-grid="9"
+      data-ng-controller="BlocksController as blockCtrl"
+      data-ng-init="moduleId = 1"
+      data-lang="ru_RU"
+      style="background: none;">
+<div class="show-for-large">
+    <header class="site-panel"><div class="site-panel__content clearfix"><div class="site-panel__left-side"><form action="/switchusermode" method="post"><input type="hidden" value="0" name="isSetting"><div class="-inline-group"><div class="site-panel__item"><button name="preview" value="0"
+                                        class="link reduct-mode -inline-group"><span class="site-panel__item-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="768px" height="768px" viewBox="78 13 768 768" enable-background="new 78 13 768 768" xml:space="preserve"><path d="M174,565v120h120l354.1-354.1l-120-120L174,565L174,565z M740.6,238.4c12.5-12.5,12.5-32.8,0-45.3l-74.7-74.7c-12.5-12.5-32.8-12.5-45.3,0L562,177l120,120L740.6,238.4L740.6,238.4z"/></svg></span><span>Редактор</span></button></div><div class="site-panel__item"><div class="-inline-group site-panel__item_active"><div class="site-panel__item-icon"><?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="768px" height="768px" viewBox="78 13 768 768" enable-background="new 78 13 768 768" xml:space="preserve"><g id="icomoon-ignore"></g><path d="M206,77h512c26.5,0,49.1,9.4,67.9,28.1S814,146.5,814,173v320c0,26.5-9.4,49.1-28.1,67.9S744.5,589,718,589H494v64h96c8.8,0,16.4,3.1,22.6,9.4s9.4,13.8,9.4,22.6s-3.1,16.4-9.4,22.6S598.8,717,590,717H334c-8.8,0-16.4-3.1-22.6-9.4S302,693.8,302,685s3.1-16.4,9.4-22.6s13.8-9.4,22.6-9.4h96v-64H206c-26.5,0-49.1-9.4-67.9-28.1S110,519.5,110,493V173c0-26.5,9.4-49.1,28.1-67.9S179.5,77,206,77z M718,141H206c-8.8,0-16.4,3.1-22.6,9.4S174,164.2,174,173v320c0,8.8,3.1,16.4,9.4,22.6s13.8,9.4,22.6,9.4h512c8.8,0,16.4-3.1,22.6-9.4s9.4-13.8,9.4-22.6V173c0-8.8-3.1-16.4-9.4-22.6S726.8,141,718,141z"/></svg></div><div>Просмотр</div></div></div><div class="site-panel__item"><a href="/new-settings/summary"><div class="-inline-group"><div class="site-panel__item-icon"><?xml version="1.0" encoding="utf-8"?><!-- Generated by IcoMoon.io --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="640" viewBox="0 0 640 640"><g id="icomoon-ignore"></g><path d="M260.096 377.664c-22.080 38.272-7.232 69.76 23.392 87.424s65.344 14.848 87.424-23.424c22.080-38.24 161.504-379.712 149.376-386.72-12.096-7.008-238.112 284.448-260.192 322.72zM320 134.464c14.016 0 27.68 1.216 40.992 3.456 14.016-17.536 29.728-36.864 44.992-55.264-27.264-7.904-56.032-12.192-85.984-12.192-179.424 0-320 151.296-320 344.448 0 11.904 0.544 23.776 1.568 35.36 1.568 17.6 17.28 30.56 34.72 29.024 17.6-1.6 30.592-17.12 29.024-34.72-0.864-9.696-1.312-19.68-1.312-29.664 0-157.248 112.48-280.448 256-280.448zM551.008 174.432c-8.928 24-18.368 48.448-26.688 69.6 32.544 47.040 51.68 106.016 51.68 170.88 0 10.144-0.448 20.352-1.344 30.24-1.6 17.6 11.36 33.152 28.96 34.784 0.992 0.096 1.952 0.128 2.944 0.128 16.352 0 30.304-12.512 31.808-29.088 1.088-11.84 1.632-23.968 1.632-36.064 0-94.432-33.664-178.848-88.992-240.48z"></path></svg></div><div>Настройки</div></div></a></div></div></form></div><div class="site-panel__right-side -inline-group"><div class="site-panel__item_no-business"><div class="-inline-group"><a class="more-possibility"
+                                   href="/new-settings/billing/service">Все возможности</a></div></div><div class="site-panel__item"><a href="/new-settings/billing/balance"> Баланс
+                                <span class="site-panel__balance">: 0 баллов</span></a></div><div class="site-panel__item"><div class="item"><a target='_blank'
+                                         href="http://nethouse.ua/about/instructions">Помощь</a></div></div><div class="site-panel__item"><div class="-inline-group"><div class=" ui dropdown menu"><div class="-inline-group"><div class="dropdown__icon ui"><?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="768px" height="768px" viewBox="78 13 768 768" enable-background="new 78 13 768 768" xml:space="preserve"><g id="icomoon-ignore"></g><path d="M462,13c34.8,0,67,8.6,96.4,25.8s52.7,40.5,69.9,69.9S654,170.2,654,205v96c0,26.7-5.2,51.9-15.5,75.8s-24.8,44.6-43.2,62.2c48.7,7.7,91.9,19,129.8,33.9s67.5,32.5,88.9,52.9c21.4,20.3,32.1,41.8,32.1,64.2v63c0,26.5-9.4,49.1-28.1,67.9S776.5,749,750,749H174c-26.5,0-49.1-9.4-67.9-28.1S78,679.5,78,653v-63.2c0-22.5,10.7-43.9,32.1-64.2c21.4-20.3,51-38,88.8-52.9s81-26.1,129.6-33.6c-18.3-17.8-32.7-38.6-43-62.4S270,327.7,270,301v-96c0-34.8,8.6-67,25.8-96.4s40.5-52.7,69.9-69.9S427.2,13,462,13z M462,493c-46.3,0-91,3.7-134.1,11.1s-80.6,17.8-112.6,31.1c-12.8,5.3-24.3,11-34.4,17s-17.8,11.4-23,16.2s-9.2,9-11.9,12.6s-4,6.5-4,8.6V653c0,8.8,3.1,16.4,9.4,22.6s13.8,9.4,22.6,9.4h576c8.8,0,16.4-3.1,22.6-9.4s9.4-13.8,9.4-22.6v-63c0-2.2-1.3-5-4-8.6s-6.6-7.8-11.9-12.6s-12.9-10.2-23-16.2s-21.5-11.8-34.4-17.2c-32-13.3-69.5-23.7-112.6-31.1C553,496.7,508.3,493,462,493z M462,77c-35.3,0-65.5,12.5-90.5,37.5S334,169.7,334,205v96c0,35.3,12.5,65.5,37.5,90.5S426.7,429,462,429s65.5-12.5,90.5-37.5S590,336.3,590,301v-96c0-35.3-12.5-65.5-37.5-90.5S497.3,77,462,77z"/></svg></div><div class="dropdown__icon ui"><?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="640px" height="640px" viewBox="14 77 640 640" enable-background="new 14 77 640 640" xml:space="preserve"><g id="icomoon-ignore"></g><path d="M443.4,328.5c8.7-8.6,22.7-8.6,31.3,0c8.6,8.6,8.7,22.4,0,31L349.6,482.1c-8.6,8.6-22.6,8.6-31.3,0L193.2,359.5c-8.6-8.5-8.6-22.4,0-31c8.7-8.6,22.7-8.6,31.3,0L334,429L443.4,328.5z"/></svg></div></div><div class="menu"><a class="item user-option" href="/new-settings/account"><div>
+                                            brandovshop
+                                        </div><div class="user-option__policy">
+                                            Владелец сайта
+                                        </div></a><a class="item" href="http://nethouse.ua/auth/logout">Выйти</a></div></div></div></div></div></div></header>
+
+    
+</div>
+
+<div class="site__layout">
+        <div id="container" class="site-container module main-page-module ">
+                                <div class="js-header-constraint site-header-constraint"></div><header class="site-header js-sticky__header small-12"><div class="site-header__content -relative"><div class="site-header__bottom-section js-combo-box" combo-box="menu"><div class="row -inline-group site-header-bottom"><div class="small-9 inline-column large-3"><div class="-inline-group"><div class="small-2 medium-1 hide-for-large"><button class="site-header__menu-btn svg-icon js-combo-box__button_menu"
+                                        data-toggle="site-menu"><?xml version="1.0" encoding="utf-8"?><!-- Generated by IcoMoon.io --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="768" viewBox="0 0 768 768"><g id="icomoon-ignore"></g><path d="M96 192h576v64.5h-576v-64.5zM96 415.5v-63h576v63h-576zM96 576v-64.5h576v64.5h-576z"></path></svg></button></div><div class="small-10 medium-8 large-12"><section id="company-logo" class="block-1 widget-block widget-logo"><div id="site-logo" class="widget-logo__image"><link rel="image_src" href="/static/img/0000/0007/0849/70849921.sgca6xhrmx.W215.png"/><a href="https://brendovshop.nethouse.ua/"><img src="/static/img/0000/0007/0849/70849921.sgca6xhrmx.W215.png" alt=""/></a></div></section></div></div></div><div class="menu-cart-wrapper small-3 large-9 -inline-group_top"><div class="js-combo-box__content_menu inline-column combo-box__content combo-box__content_invert large-12 inline-column"><div class="combo-box__header"><div class="combo-box__title">Меню</div><div class="combo-box__close js-combo-box__close_menu svg-icon_smallx svg-icon"><?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="768" viewBox="0 0 768 768"><path d="M607.5 205.5l-178.5 178.5 178.5 178.5-45 45-178.5-178.5-178.5 178.5-45-45 178.5-178.5-178.5-178.5 45-45 178.5 178.5 178.5-178.5z"></path></svg></div></div><nav id="main-menu" class="site-menu"><div><ul class="no-bullet site-menu__list clearfix"><li id="lnk-1"
+                            data-sort="0"
+                            class=" active disable-sort site-menu__item" data-loc=&quot;mainpage&quot;
+                            data-label="Главная"><a href="https://brendovshop.nethouse.ua/">
+                                Главная
+                            </a></li><li id="lnk-2"
+                            data-sort="5"
+                            class=" site-menu__item" 
+                            data-label="Контакты"><a href="https://brendovshop.nethouse.ua/contacts">
+                                Контакты
+                            </a></li><li id="lnk-3"
+                            data-sort="10"
+                            class=" site-menu__item" 
+                            data-label="Доставка"><a href="https://brendovshop.nethouse.ua/delivery">
+                                Доставка
+                            </a></li></ul></div></nav></div></div></div></div></div></header>
+
+                    
+        <div id="content-anchor" class="site-content small-12">
+            <div class="site-background" style="background-color: #FFFFFF; background-image: url(/static/img/0000/0007/0889/70889636.tq8zwgvm7x.jpg); background-repeat: repeat; background-position: top left; background-attachment: fixed; background-size:auto; -webkit-background-size:auto;-webkit-background-size:auto;-moz-background-size:auto;-o-background-size:auto;"></div>
+            <section data-blocks-list id="content"
+                     class="js-blocks-list"
+                     data-ng-controller="ContentController">
+                <section class="slider widget ng-cloak on-view widget-block"
+             data-widget-slider
+             data-params="{&quot;route&quot;:&quot;mainPage&quot;}"
+             data-type="43"
+             data-deleted=""
+             data-entity-id="12"><button type="button"
+                class="main-slider-arrow__next main-slider-arrow"><svg id="SvgjsSvg1014" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:svgjs="http://svgjs.com/svgjs" width="10" height="16" viewBox="0 0 10 16"><title>icon</title><desc>Created with Avocode.</desc><defs id="SvgjsDefs1015"></defs><path id="SvgjsPath1016"
+          d="M1516.99 4336C1516.71 4336 1516.48 4336.09 1516.29 4336.28C1516.1 4336.46 1516.01 4336.71 1516.01 4337C1516.01 4337.28 1516.1 4337.52 1516.29 4337.7L1522.57 4343.99L1516.29 4350.29C1516.1 4350.48 1516.01 4350.71 1516.01 4351C1516.01 4351.28 1516.1 4351.51 1516.29 4351.7C1516.49 4351.9 1516.73 4352 1516.99 4352C1517.27 4352 1517.51 4351.9 1517.69 4351.7L1524.7 4344.71C1524.91 4344.51 1525.01 4344.27 1525.01 4343.99C1525.01 4343.719999999999 1524.91 4343.49 1524.7 4343.28L1517.69 4336.28C1517.51 4336.09 1517.27 4336 1516.99 4336Z "
+          fill="#fff" fill-opacity="1" transform="matrix(1,0,0,1,-1516,-4336)"></path></svg></button><button type="button"
+                class="main-slider-arrow__prev main-slider-arrow"><svg id="SvgjsSvg1017" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:svgjs="http://svgjs.com/svgjs" width="10" height="16" viewBox="0 0 10 16"><title>icon</title><desc>Created with Avocode.</desc><defs id="SvgjsDefs1018"></defs><path id="SvgjsPath1019"
+          d="M404 4336C403.718 4336 403.484 4336.09 403.297 4336.28L396.28900000000004 4343.28C396.10100000000006 4343.469999999999 396.00800000000004 4343.71 396.00800000000004 4343.99C396.00800000000004 4344.2699999999995 396.10100000000006 4344.51 396.28900000000004 4344.71L403.297 4351.7C403.48400000000004 4351.9 403.718 4352 404 4352C404.281 4352 404.515 4351.9 404.703 4351.7C404.90599999999995 4351.51 405.00699999999995 4351.28 405.00699999999995 4351C405.00699999999995 4350.71 404.90599999999995 4350.48 404.703 4350.29L398.42199999999997 4343.99L404.703 4337.7C404.90599999999995 4337.5 405.00699999999995 4337.2699999999995 405.00699999999995 4337C405.00699999999995 4336.72 404.90599999999995 4336.49 404.703 4336.3C404.515 4336.1 404.28099999999995 4336 404 4336Z "
+          fill="#fff" fill-opacity="1" transform="matrix(1,0,0,1,-396,-4336)"></path></svg></button><div><div class="user-inner slider__user-content" data-ng-if="sliderCtrl.edit"
+                 data-ng-include="sliderCtrl.editTemplate"></div><div data-ng-if="!sliderCtrl.deleted" class="slider__content js-slider" data-ng-show="!sliderCtrl.edit"><div class="slider__item slider-item js-slider__item slider-item_no-bg"><div class="slider__item-constraint js-slider__item-constraint"></div><div class="slider-item__content row"><div class="column small-12"><div class="user-inner slider__user-content "><div class="mr-block"><div class="mrb-row_imageAndText mrb-row__content -inline-group_top mrb-row-index-0"><div class="mrb-small-18 mrb-medium-6
+            mrb-col-index-0 mrb-large-7"><div class="-gd-content mrb-block-index-0"><div class="mrb-image"><div style="text-align: center"><img                  src="//i.siteapi.org/GFs-OuhqZChvW0v2JFoPMhlzDeg=/fit-in/1400x1000/center/top/75327eb97b7ae8c.s.siteapi.org/img/ed8f62bcaf259dc97551571142eeab8a7a54b5ab.png"></div></div></div></div><div class="mrb-small-18 mrb-medium-12
+            mrb-col-index-1 mrb-large-11"><div class="-gd-content mrb-block-index-0"><div class="user-inner"><p><br /></p><p style="text-align: left; line-height: 1;"><span style="font-size: 60px; font-size: 60px;">Добро пожаловать</span></p><p style="text-align: left; line-height: 1;"><span style="font-size: 60px; font-size: 60px;">в&nbsp;<span><span class="color_15">Brandovshop!</span></span></span></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p style="text-align: right;"><span style="font-size: 30px; font-size: 30px;"><span style="font-style: italic; font-style: italic;"><span>Обнови свой гардероб!</span></span></span></p></div></div></div></div><div class=" mrb-row__content -inline-group_top mrb-row-index-1"><div class="mrb-small-18 mrb-medium-18
+            mrb-col-index-0 mrb-large-18"><div class="-gd-content mrb-block-index-0"><div id="mrb-button-block"
+     class="user-inner mrb-button-block theme-default"
+     style="text-align: center"><a href="https://brendovshop.nethouse.ua/products"
+                      class="mrb-btn-large mrb-btn-item a"><span class="mrb-btn-item-text">В магазин</span></a></div></div></div></div></div></div></div></div></div></div></div></section>
+                <div data-sorted-blocks
+                     class="js-sorted-blocks main-page-module__list module__list"
+                     data-region="1"
+                     data-module="1">
+                                                                                                                                                                                                                                                                                                                                                                                    <section  data-widget-lead-form
+              data-widget-container
+              data-widget-id="10"
+              data-widget-sort="1"
+              data-widget-url="/widget?route=mainPage&amp;on_main=1&amp;type=41&amp;widget_id=10"
+              data-region="1"
+              data-widget-type="41"
+              class="widget-sort widget-block block-10">
+
+                            <section data-widget-content
+         class="-nt-widget -widget-lead-form widget lead-form lead-form_dark" >
+
+    <div class="content-block widget__content widget__content_filled">
+                <div class="row widget__inner" data-ng-show="$ctrl.showContent()">
+            <div class="small-12 column">
+                <header class="text-center widget__header ">
+                    <h3 class="lead-form__title">
+                        Заполните форму
+                    </h3>
+                </header>
+                                    <div class="description text-center lead-form__desc">
+                        Оставьте заявку прямо сейчас, мы свяжемся с Вами незамедлительно!
+                    </div>
+                                <div class="text-center">
+                    <div class="row text-left">
+                        <div class="medium-8 large-6 medium-centered column">
+                            <form class="dynamic-form js-no-tooltip dynamic-form-3 text-center"
+                                  data-type="3"
+                                  method="POST"
+                                  action="https://brendovshop.nethouse.ua/mailer/sendmessage">
+                                <input type="hidden" name="formType" value="3" id="formType">
+                                                                                                                                                <div class="lead-form__input field">                <input type="text"
+               name="fio"
+               id="fio"
+               maxlength="100"
+               class="dynamic-form-required dynamic-form-fio dynamic-form-text -col-12"
+               placeholder="Ваше имя">
+    </div>
+                                                                                                                                                                                    <div class="lead-form__input field">                <input type="text"
+               name="phone"
+               id="phone"
+               maxlength="100"
+               class="dynamic-form-required dynamic-form-phone dynamic-form-text -col-12"
+               placeholder="Контактный телефон">
+    </div>
+                                                                                                                                                                                    <div class="lead-form__input field">                <input type="text"
+               name="email"
+               id="email"
+               maxlength="100"
+               class=" dynamic-form-email dynamic-form-text -col-12"
+               placeholder="E-mail">
+    </div>
+                                                                                                </form>
+                        </div>
+                    </div>
+                    <a href="#lead-form-send">
+                        <button class="dynamic-form-button-3 lead-form__button">Отправить заявку</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                                <div class="widget__content widget__content_filled">
+        <div class="row">
+            <div data-ng-if="$ctrl.loaded" class="widget__view small-12 column" data-ui-view="lead-form-view"></div>
+        </div>
+    </div>
+
+                                </section>
+
+                                                                                                                        
+                            
+<section id="contactssocnet"
+         data-widget-container
+         data-widget-id="16"
+         data-region="1"
+         data-widget-type="26"
+         data-widget-url="/widget?route=mainPage&amp;on_main=1&amp;type=26&amp;widget_id=16"
+         data-block-id="16"
+         class="block-16 widget-sort socnets -nt-widget widget on-view widget-block">
+        <header class="widget__header row -relative infoPlate widget__header_underlined">
+        <h3 class="text-center widget__title">
+            Мы в социальных сетях
+        </h3>
+    </header>
+    <div class="widget__content widget__content_filled ">
+        <div class="row widget__inner -relative">
+            <div data-ng-non-bindable class="content-block" id="contactssocnet-show">
+                                    <div class="socnets__list">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="socnets__item socnets__item_instagram">
+                                    <a target="_blank" class="socnets__icon" rel="nofollow" href="https://instagram.com/brandovshop">
+                                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M14.154 16H1.846C.826 16 0 15.173 0 14.153V1.846C0 .826.826 0 1.846 0h12.308C15.174 0 16 .826 16 1.846v12.307c0 1.02-.826 1.847-1.846 1.847M8 4.923C6.3 4.923 4.923 6.3 4.923 8S6.3 11.077 8 11.077 11.077 9.7 11.077 8C11.077 6.3 9.7 4.923 8 4.923m6.154-2.462c0-.34-.275-.614-.616-.614h-1.846c-.34 0-.615.275-.615.615V4.31c0 .34.276.615.615.615h1.846c.34 0 .616-.276.616-.615V2.46zm0 4.31H12.76c.103.392.163.804.163 1.23 0 2.72-2.204 4.923-4.923 4.923-2.72 0-4.923-2.204-4.923-4.923 0-.426.06-.838.162-1.23H1.845v6.768c0 .34.275.615.616.615h11.076c.34 0 .616-.275.616-.615v-6.77z"/></svg>                                    </a>
+                                </div>
+                                                                                                                                                                                                                        <div class="socnets__item socnets__item_viber">
+                                    <a target="_blank" class="socnets__icon" rel="nofollow" href="http://chats.viber.com/380663500132">
+                                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.874 1.56C13.476 1.194 11.87.027 8.29.01c0 0-4.22-.253-6.277 1.634C.868 2.79.465 4.464.423 6.544.38 8.62.325 12.515 4.08 13.57h.003l-.003 1.612s-.023.652.406.785c.52.16.824-.336 1.32-.87.273-.293.648-.724.932-1.054 2.567.216 4.542-.277 4.766-.35.518-.17 3.45-.544 3.928-4.438.492-4.015-.238-6.553-1.558-7.698zm.435 7.408c-.405 3.25-2.783 3.457-3.22 3.597-.188.06-1.923.492-4.103.35 0 0-1.625 1.96-2.132 2.47-.08.08-.173.11-.235.096-.087-.02-.11-.124-.11-.275 0-.216.014-2.677.014-2.677-.003 0-.002 0 0 0-3.176-.883-2.99-4.197-2.955-5.933.035-1.735.36-3.157 1.33-4.113 1.74-1.576 5.325-1.34 5.325-1.34 3.027.012 4.478.924 4.814 1.23 1.116.956 1.685 3.244 1.27 6.596zM5.167 3.32c.162 0 .307.073.42.207.002.002.387.464.553.69.158.213.368.553.475.743.19.34.07.688-.115.832l-.376.3c-.19.152-.165.436-.165.436s.555 2.105 2.635 2.635c0 0 .284.026.437-.164l.3-.377c.142-.186.49-.305.83-.115.19.107.53.317.744.474.226.166.688.55.69.552.22.186.27.46.12.748v.006c-.154.272-.36.527-.622.765l-.005.004c-.215.18-.426.28-.632.306-.025.004-.055.007-.093.005-.09 0-.18-.012-.268-.04l-.007-.01c-.318-.09-.85-.315-1.735-.804-.575-.317-1.054-.64-1.458-.963-.213-.167-.433-.36-.655-.58l-.045-.044-.022-.023-.022-.022c-.22-.222-.413-.44-.58-.654-.323-.404-.647-.883-.964-1.458-.49-.885-.714-1.417-.804-1.735l-.01-.007c-.03-.09-.042-.178-.04-.268-.003-.038 0-.068.004-.093.025-.206.127-.417.306-.63 0-.004.002-.004.004-.006.238-.262.493-.47.765-.623h.006c.112-.06.22-.087.322-.087h.006zm2.73-.456H7.975l.048.002h.013l.054.003c.022 0 .044 0 .066.002l.034.002.04.003c.01 0 .018 0 .026.002.027 0 .053.004.08.006l.046.005.04.005.09.01.046.007.096.015.013.002c.023.003.047.007.07.012h.006l.05.01c.022.005.043.01.064.013l.03.007.033.007.055.012.006.002.04.01.035.01.025.005.024.006.025.007.023.007.043.012.03.01.03.01.036.01.024.01c.017.005.035.01.053.017l.028.01.03.01.082.03.04.018.087.036.034.015.03.012c.018.01.037.017.056.026l.033.016.016.01.045.02.023.012.04.02.026.015.032.02.038.02.033.02c.007.003.014.007.02.012l.04.022.03.02.048.03.028.016.047.03.005.005.03.02.063.044.03.02.026.02.02.015.03.022.055.043.04.032.03.024.014.012.018.016.054.046.03.025.018.017c.01.01.02.017.028.026l.03.026c.004.005.008.01.013.013l.085.08c.01.012.022.023.033.034.03.03.057.06.085.09l.022.024c.015.016.03.032.043.05l.022.023.107.13c.01.013.02.027.032.04.005.01.012.018.018.026l.065.09.022.03c.02.027.037.054.054.08l.048.078.037.062.04.067c.01.02.022.04.034.06l.008.02c.007.012.014.025.02.04.018.032.035.065.05.098.017.033.033.067.048.1l.022.05c.04.09.076.183.11.277.047.137.088.277.122.418.026.106.048.213.067.32l.023.15c.01.067.018.134.025.2.01.085.016.168.02.252.006.078.01.156.01.235.002.038.003.077.003.115l-.002.033-.008.033c-.004.01-.008.022-.014.032-.01.02-.024.037-.04.052-.016.016-.035.028-.055.037-.022.01-.044.016-.066.018h-.033c-.022 0-.043-.006-.064-.015-.02-.01-.04-.02-.056-.036-.017-.015-.03-.033-.04-.053-.012-.02-.02-.04-.024-.062l-.003-.034v-.042c0-.058-.003-.115-.005-.172-.006-.143-.017-.285-.035-.427-.01-.094-.025-.188-.042-.28-.007-.048-.017-.094-.026-.14l-.023-.1c-.006-.03-.014-.06-.022-.09l-.016-.06-.03-.102c-.024-.08-.05-.158-.08-.235-.02-.055-.042-.11-.065-.162l-.02-.043c-.027-.06-.056-.12-.087-.18l-.02-.035c-.045-.087-.095-.172-.15-.254-.01-.018-.023-.035-.035-.053l-.01-.014c-.014-.022-.028-.042-.043-.062-.038-.053-.078-.105-.12-.156-.027-.034-.056-.068-.085-.1l-.012-.014-.03-.034-.025-.026-.048-.05-.012-.013-.046-.045-.03-.03-.055-.05-.027-.025-.03-.027-.014-.01c-.016-.015-.032-.03-.05-.043-.015-.013-.03-.027-.047-.04l-.018-.015c-.014-.01-.027-.02-.04-.032l-.055-.042-.036-.027-.005-.005-.024-.016-.046-.034c-.006-.005-.012-.01-.018-.013-.01-.007-.02-.013-.028-.02-.005-.002-.01-.006-.015-.01l-.005-.002-.024-.015c-.013-.01-.027-.018-.04-.027l-.03-.018-.052-.032-.044-.026-.004-.003-.025-.015-.024-.014h-.004l-.014-.01-.045-.023-.005-.003-.02-.01-.03-.016-.004-.002-.026-.013-.014-.007-.036-.017-.005-.004-.02-.01-.035-.016-.015-.007c-.02-.01-.042-.018-.062-.027l-.052-.02-.005-.004-.094-.036-.032-.012c-.01-.004-.02-.008-.032-.01l-.02-.01c-.02-.005-.037-.01-.055-.017l-.027-.01c-.005 0-.01-.002-.016-.004l-.038-.012H9.08l-.023-.007-.033-.01h-.006l-.027-.01c-.007 0-.014-.003-.02-.005h-.007L8.94 3.4l-.016-.003-.005-.002-.03-.007h-.005c-.007-.003-.015-.005-.022-.006l-.028-.007H8.83c-.016-.005-.03-.008-.046-.01l-.006-.003-.04-.008c-.02-.004-.038-.008-.057-.01l-.005-.002-.03-.006-.033-.006-.035-.005-.04-.007-.042-.006-.12-.015-.04-.005h-.02c-.026-.004-.052-.006-.078-.008l-.05-.004-.042-.003H8.12c-.01-.002-.024-.003-.036-.003l-.05-.002h-.03l-.052-.003H7.896l-.007-.002c-.012 0-.024 0-.035-.003-.022-.004-.043-.01-.062-.022-.02-.01-.038-.025-.053-.04l-.02-.028c-.012-.02-.02-.04-.026-.06-.005-.023-.007-.045-.005-.068 0-.022.007-.044.016-.064.01-.02.022-.04.037-.055.016-.017.033-.03.053-.04.02-.01.04-.018.063-.022.01 0 .022 0 .033-.002H7.9zm.37 1.05l.024.002.04.004c.006 0 .012 0 .02.002.015 0 .03.003.048.004l.043.005.015.003.03.003.032.005.033.005c.007 0 .013.002.02.003l.027.004.048.008.037.006c.006 0 .012.003.018.004l.037.007.014.002.077.016.033.007.03.007.032.008c.005 0 .01.002.014.003l.034.01.035.01.03.01c.008 0 .017.004.026.006.005.002.01.004.017.005.014.006.028.01.043.015l.02.006c.02.008.04.015.06.02l.033.013.033.013.073.03c.014.004.027.01.04.015l.024.012c.03.012.06.026.087.04l.035.016.035.018.034.018c.03.015.056.03.083.046l.02.01.025.016.015.01.05.03.025.017c.014.01.028.02.042.028l.018.014.02.014.03.023.038.03c.008.005.016.01.024.017.005.005.01.01.016.013l.023.02.026.02.022.02.035.03.022.02.01.01.058.055.01.01c.008.01.017.018.026.027l.01.012.03.03.026.03.02.02.027.033c.01.01.02.02.028.032l.06.074.016.02.038.05.015.02.008.014c.006.008.01.016.017.024l.016.024c.01.012.016.023.024.035.01.016.02.03.028.047.003.004.006.01.01.013l.023.04.014.025c.004.01.01.02.015.028l.018.033.023.044.018.037c.006.01.01.022.016.033.013.027.025.053.036.08.005.01.01.02.013.03l.03.08c.018.045.034.09.048.135.004.01.008.023.01.035.01.03.02.06.027.09l.03.118.03.163c.008.048.014.095.02.142.01.08.015.16.018.242l.003.144v.077L11 6.84c-.002.01-.004.02-.008.03-.007.022-.02.04-.033.06-.015.016-.032.03-.05.043-.02.012-.04.02-.062.025-.022.005-.045.006-.067.004-.02-.002-.043-.008-.063-.018-.01-.004-.02-.01-.03-.016-.017-.013-.034-.028-.047-.046-.013-.018-.024-.038-.03-.06-.004-.01-.006-.02-.008-.032 0-.01 0-.022-.002-.034v-.032-.037-.068c0-.085-.007-.17-.016-.253-.01-.095-.025-.19-.045-.282-.015-.06-.03-.12-.048-.177l-.022-.067-.02-.056-.007-.02c-.01-.027-.02-.054-.033-.08-.008-.02-.016-.04-.025-.058l-.05-.103-.045-.08c0-.003-.003-.006-.005-.01l-.02-.032-.003-.005c-.006-.01-.01-.018-.017-.027l-.03-.046-.028-.04c-.02-.03-.042-.06-.063-.087-.03-.038-.062-.076-.094-.113-.01-.01-.018-.02-.026-.03l-.02-.02-.01-.012-.015-.016-.016-.015-.036-.037-.08-.075-.053-.044-.002-.002-.02-.016-.025-.02-.008-.006c-.006-.005-.012-.01-.018-.013l-.025-.02-.01-.006-.043-.03-.012-.008-.017-.012c-.007-.004-.014-.01-.022-.013-.014-.01-.028-.02-.042-.027l-.012-.008-.037-.022-.005-.004-.035-.02-.022-.01-.004-.003-.026-.014-.003-.002-.026-.014h-.005c-.023-.013-.046-.024-.07-.035-.01-.006-.022-.01-.033-.016l-.024-.01-.017-.007-.03-.013-.026-.01-.04-.015-.035-.014h-.004l-.01-.005-.034-.01-.004-.002-.063-.02-.04-.012L8.9 4.43l-.023-.007h-.004c-.015-.005-.03-.01-.046-.013l-.024-.006-.03-.007h-.005l-.016-.004h-.004l-.028-.007-.016-.004-.04-.008-.042-.008-.017-.003-.037-.006-.03-.005-.042-.006-.043-.006-.043-.005-.035-.004h-.017l-.045-.006-.045-.004-.035-.002-.033-.005-.032-.01c-.02-.01-.04-.022-.056-.037-.017-.015-.03-.032-.042-.052-.01-.02-.018-.04-.022-.062s-.004-.045 0-.067c.003-.022.01-.044.02-.063.005-.01.01-.02.018-.028.014-.018.03-.034.05-.046.008-.006.018-.012.028-.016.02-.01.042-.015.064-.018h.039zM8.565 5c.01 0 .02 0 .03.002.008 0 .018 0 .028.002l.033.003c.07.006.142.016.212.03l.07.016.017.005.076.02c.013.005.025.01.038.013l.025.01c.03.01.062.023.092.036l.007.004.035.016.06.03.014.008c.01.006.02.01.03.017.012.01.025.017.037.025.035.022.067.045.098.07l.07.06c.02.018.038.037.057.058l.04.046c.005.004.01.01.013.015l.016.02.025.033c.02.03.04.06.058.09l.048.09c.012.024.024.05.035.077.01.022.02.045.028.068.023.064.042.13.057.196.015.06.025.124.034.187l.01.097.006.09v.038c-.003.023-.01.046-.02.067-.01.023-.026.045-.046.063-.02.017-.043.03-.067.04-.02.007-.04.01-.06.012-.02 0-.04 0-.058-.006-.022-.006-.044-.016-.063-.03-.022-.014-.04-.033-.056-.055-.015-.022-.025-.046-.03-.072l-.003-.02-.002-.036c0-.015 0-.03-.003-.045l-.007-.07-.012-.086-.013-.07-.01-.037c-.002-.014-.006-.028-.01-.04-.023-.085-.055-.167-.098-.243l-.024-.04-.03-.045-.03-.036-.016-.018-.043-.045-.045-.04-.044-.03c-.012-.01-.024-.018-.037-.026l-.042-.024-.044-.023-.024-.01-.01-.006-.055-.02c-.02-.008-.038-.014-.058-.02l-.057-.016-.03-.007c-.007 0-.014-.002-.02-.004l-.025-.004-.028-.006-.022-.003-.036-.005-.028-.004-.027-.003h-.027c-.013-.002-.027-.004-.04-.004-.008 0-.016 0-.025-.002h-.01c-.003 0-.006 0-.01-.002-.006 0-.012-.002-.02-.004-.018-.005-.037-.013-.054-.023-.023-.014-.043-.032-.06-.053-.012-.02-.023-.04-.03-.062-.005-.02-.008-.04-.008-.06 0-.026.006-.052.016-.077.01-.024.026-.046.044-.065.015-.014.03-.026.048-.035.02-.01.043-.018.066-.02C8.533 5 8.54 5 8.546 5h.02z"/></svg>                                    </a>
+                                </div>
+                                                                        </div>
+                            </div>
+                    </div>
+    </div>
+</section>
+
+                            
+                            
+                                                                                                                        
+                            
+<section
+    data-widget-container
+    data-widget-id="14"
+    data-region="1"
+    data-widget-type="24"
+    data-widget-url="/widget?route=mainPage&amp;on_main=1&amp;type=24&amp;widget_id=14"
+    class="block-14 widget-sort contacts widget on-view widget-block -nt-widget"
+    id="contactsmain"
+    data-block-id="14">
+        <header class="widget__header contacts__header widget__header_underlined">
+
+        <h3 class="text-center widget__title contacts__title">
+            <a href="https://brendovshop.nethouse.ua/contacts">Контакты</a>
+        </h3>
+    </header>
+    <div class="widget__content widget__content_filled">
+
+        <div data-ng-non-bindable class="content-block contacts__content" id="contactsmain-show">
+                            <div id="main-contacts" class="contacts__list"><div class="contact-address"><div class="row contact contact-address__address text-center medium-text-left"><div class="small-12 medium-4 large-2 column"><div class="contact__title"><div class="contact__icon"><?xml version="1.0" encoding="utf-8"?><!-- Generated by IcoMoon.io --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="768" viewBox="0 0 768 768"><g id="icomoon-ignore"></g><path d="M384 367.5q33 0 56.25-23.25t23.25-56.25-23.25-56.25-56.25-23.25-56.25 23.25-23.25 56.25 23.25 56.25 56.25 23.25zM384 64.5q93 0 158.25 65.25t65.25 158.25q0 46.5-23.25 106.5t-56.25 112.5-65.25 98.25-54.75 72.75l-24 25.5q-9-10.5-24-27.75t-54-69-68.25-100.5-53.25-110.25-24-108q0-93 65.25-158.25t158.25-65.25z"></path></svg></div><div class="contact__label">
+                        Адрес
+                    </div></div></div><div class="small-12 medium-8 large-6 column"><address class="contact__item"><div class="-inline-group"><div class="contact-address__part">Киев</div><div class="contact-address__part">Украина</div></div><div class="contact__desc"></div></address></div><div class="small-12 medium-8 large-4 column"></div></div><div class="contact-address__map"><iframe src="https://brendovshop.nethouse.ua/contacts/showmap/1454058/1/ru_RU"
+                        id="gmap-1" style="width:100%;height:100%;"
+                        marginheight="0" marginwidth="0" frameborder="0" data-host="nethouse.ua"
+                        data-lang="ru_RU"></iframe></div></div><div class="row"><div class="small-12 column"><div class="-inline-group_top row"></div></div></div></div>                    </div>
+    </div>
+    </section>
+
+
+
+
+                            
+                            
+                                                                                                                                                                                            
+                            <section id="subscribe-left"
+         data-widget-container
+         data-widget-id="19"
+         data-region="1"
+         data-widget-type="22"
+         data-widget-url="/widget?route=mainPage&amp;on_main=1&amp;type=22&amp;widget_id=19"
+         data-block-id="19"
+         class="block-19 widget-sort onmain widget on-view widget-block -nt-widget">
+    <div class="row -relative">
+        <div class="small-12 column">
+                    </div>
+    </div>
+    <header class="infoPlate widget__header widget__header_underlined row text-center">
+        <h3>Рассылка</h3>    </header>
+    <div class="widget__content widget__content_filled">
+        <div class="row widget__inner -relative">
+            <div class="small-12 column">
+                <div data-ng-non-bindable class="content-block" id="subscribe-left-show"><div class="subscribe-add-form"><form  id="subscriber-add-form"
+          method="post"
+          action="https://brendovshop.nethouse.ua/subscribe/addsubscriber"
+          class=""><div class="hide"><input type="text" name="lastname" id="lastname" value=""></div><div class="row"><div class="small-12 large-12 medium-10 medium-centered column"><div class="row -inline-group_top"><div class="small-12 large-5 inline-column"><div class="-relative"><input id="username"
+                                                       type="text"
+                                                       class="small-12 input input_flat"
+                                                       name="name"
+                                                       maxlength="255"
+                                                       placeholder="Представьтесь, пожалуйста"
+                                                       data-default="Представьтесь, пожалуйста"></div></div><div class="small-12 large-5 inline-column"><div class="-relative"><input type="text"
+                                                       id="useremail"
+                                                       class="small-12 input input_flat"
+                                                       name="email"
+                                                       maxlength="128"
+                                                       placeholder="Введите адрес эл. почты"
+                                                       data-default="Введите адрес эл. почты"></div></div><div class="small-12 large-2 inline-column text-center"><button class="small-8 medium-5 large-12 button button_bordered_medium subscribe-add-form__button text-center ">Подписаться</button></div></div></div></div></form></div></div>            </div>
+        </div>
+    </div>
+</section>
+
+                            
+                            
+                                                            </div>
+                <div data-deleted-blocks
+                     class="js-deleted-blocks blocks-list module__list">
+                                    </div>
+            </section>
+        </div>
+    </div>
+    <footer id="footer" class="site-footer">
+    <div class="row">
+        <section class="small-12 column">
+            <div class="-inline-group"><div class="small-12 large-8 text-center medium-text-left"><div id="footer-text" class="footer-text client"><div id="footertext1" class="footer-text__about">
+                                2017 © BRANDOVSHOP
+                            </div><div id="footertext2" class="footer-text__desc">Кращі товари та послуги в Інтернеті</div></div></div><div class="small-12 medium-12 large-4 site-footer_indent"><div class="text-center large-text-right site-footer__logo"><div class="inline-block"><div id="project-info" class="project-info"><span class="footer-color project-info__link-wrap"><a href="http://nethouse.ua/?p=footer"
+                                  target="_blank"
+                                  id="nethouse-caption"
+                                  class="footer-color">Конструктор сайтов<br>Nethouse</a></span><a id="nh-logo" class="nh-logo text-center" href="http://nethouse.ua/?p=footer" target="_blank" title="Бесплатный сайт на Nethouse"><svg xmlns="http://www.w3.org/2000/svg" width="179" height="48.86" viewBox="0 0 179 48.86"><title>Asset 1</title><path d="M5.29,25.26c1.73-.85,3.34-2.06,5-2.89,1.44-.7,2.06-1,2.83-.86a10.54,10.54,0,0,1,2.28.81c1.63.68,2.86,1.34,4.49,2.16,2.74,1.36,3.12.72,4.13-1.11s1-2.57-1.56-3.73S17.6,17.56,15,16.45a14.3,14.3,0,0,0-1.82-.73c-.64-.14-1.08.07-2.39.74-2.25,1.15-5.6,3-7.61,4.12-1.82,1-1.86,1.35-.94,3.12S3,26.36,5.29,25.26Z" style="fill:#fff"/><path d="M178.88,39c-.12-.08-.51.2-.86.51a17.51,17.51,0,0,1-3.37,2.37,18.48,18.48,0,0,1-3.17,1.27,12.61,12.61,0,0,1-6.41.79,4.58,4.58,0,0,1-2-1c-.09-.08,0-.19.21-.33a16.12,16.12,0,0,1,1.76-.88,12.43,12.43,0,0,0,1.17-.59c3-1.89,5.94-3.29,7.26-6.86a4.63,4.63,0,0,0-.26-4.38c-.88-1.24-2.67-2.06-5.55-2.05a11.61,11.61,0,0,0-2.62.3c-5.95,1.37-9.89,7.17-10.44,11.9A8.63,8.63,0,0,0,155,44a10.65,10.65,0,0,1-3.8,1.74h0a6.3,6.3,0,0,0,1-2.28,5.38,5.38,0,0,0-.27-3.18c-1-2.51-4.5-3.55-5.94-4.55-.76-.53-1.42-.85-1.71-1.64-.61-1.66.91-2.77,2.55-2.92a2.9,2.9,0,0,1,2.21.64c.49.44.47,2.05-.39,1.9-1.08-.18-.73,1.59.64,1.84,1.92.35,3.45-.78,3.71-3.62.35-3.81-5.73-6-11-2.55s-4,7.19-3,8.77a4.15,4.15,0,0,0,1.12,1h0c-1.23,2.27-4.85,4.53-6.17,4.15-.47-.13-1.12-.33-.74-1.83.29-1.16.74-3,1.34-5.73.77-3.56,1.54-5.59.39-6.51a6.25,6.25,0,0,0-3.33-.77c-.81,0-1.54,0-2,.85a18,18,0,0,0-.6,2.9c-.62,3.86-.84,6.36-3.87,9.21-1.24,1.16-2.55,1.84-3.47,1.46-2.32-1,1.18-10.16.64-12.87-.39-2-2.71-2-4.8-1.42a15.19,15.19,0,0,0-5.61,3c-.91-2-2.77-3.66-6.36-3.94a10.68,10.68,0,0,0-2.93.18c-6,1.19-10.85,7.22-10.58,12.36A9,9,0,0,0,92.09,42C91,43.15,89.92,44,89,43.6c-.68-.28-.82-1.1-.29-4.17.93-5.45,1.22-8.62-.29-10.27S83,28.38,81,29.09c-1.57.58-3.74,2.5-4.86,3.29-.45.32-.68-.28-.53-1.08C76.6,26.15,83.86,1.06,80.6.05,79.35-.34,76,1.56,74.21,3.27c-1.07,1-1.11,3.62-1.17,5-.16,3.51-1.62,10.85-2.82,16.73A118.77,118.77,0,0,0,68,40.52a.18.18,0,0,0,0,0c-.47.28-1,.64-1.66,1-1.61.89-4.16,2-6.1,1.56a5.26,5.26,0,0,1-2.8-1.8c-1.7-2-1.06-7.54.29-15h0c4.17,0,6.56.09,8.08-.08,1-.11,1.23-.29,1.6-1.14a11.9,11.9,0,0,0,.92-3.43c0-.83-.77-.64-1.41-.65-1.81,0-4.73.14-8.08.3-.07,0-.15,0-.13,0,1.64-6.23,3.65-11.64,4.06-13.75S54.24,11,53.24,13.48c-.17.41-.52,3.68-1.18,7.93-1.88,0-3.14,0-3.14,0-.6,0-1-.1-1.25.81A12.12,12.12,0,0,0,47.24,26c.08.45.29.49.7.52.62,0,1.75,0,3.3,0-.5,2.91-1,5.47-1.13,6.88C50,34.56,49.8,36,49.7,37.45a13.29,13.29,0,0,1-6.31,5.2,12,12,0,0,1-6.84,1.06,4.24,4.24,0,0,1-2.28-1.26,13.69,13.69,0,0,0,2.28-.68A14.26,14.26,0,0,0,43,37c3.24-4.48,2.66-9.75-4.65-9.14a11.37,11.37,0,0,0-1.85.3c-6.2,1.54-9.91,7.9-10.07,12.82,0,.25,0,.55,0,.8l0,0c-1.23,1.28-3,1.81-4,1.39-.66-.27-.8-1.08-.29-4.08.91-5.34,1.13-8.15-.35-9.77s-5.35-.77-7.25-.07a8.61,8.61,0,0,0-1.41.72A40.52,40.52,0,0,0,9.1,33a4.86,4.86,0,0,1,.14-1.12A3.38,3.38,0,0,0,7.09,28c-1-.14-3.26,1.33-4.88,2.87a16.75,16.75,0,0,0-1.94,2c-.29.48-.35.8-.16,1.07s1,.07,1.9-.37,1.53-.28,1.58.89a23.62,23.62,0,0,1-.54,4.88c-.42,1.9-1.44,5,.06,7.12s5.71,1.64,5.71,1.64a14.05,14.05,0,0,1,.26-7.68c1-3.17,2.33-5.16,4.09-5.91a4.33,4.33,0,0,1,2-.33c3,.16-2.36,12.2,1,13.63,4,1.68,8-1.23,10.65-4,1,3.57,4.37,5.52,8.81,4.86l.93-.16a22.4,22.4,0,0,0,13.13-7.63c.26,3.71,1.64,7.07,6.13,7.63a11.19,11.19,0,0,0,2.79,0,13.42,13.42,0,0,0,9.4-5,7,7,0,0,0,1,3.3c1.53,2.16,5.83,1.67,5.83,1.67a14.35,14.35,0,0,1,.26-7.84c1.35-4.34,3.64-6.49,6.47-6.34,3.09.16-2.41,12.45,1,13.91,3.93,1.67,7.54-1.05,10.18-3.76l0,0c1,2.13,3.06,4.27,7.54,4.22a14.2,14.2,0,0,0,2.22-.19A12,12,0,0,0,112,40a18,18,0,0,0,.5-2.77,11.78,11.78,0,0,0-.18-4l0-.15c1.58-.63,2.29-.81,3-.61s.91,1.23.73,1.94c-.19,1.3-.83,3.6-1.14,4.93a24.87,24.87,0,0,0-.83,5.55c0,4.43,5.2,4.08,7.93,3.07s5.3-5.73,4.94-4.78c-.88,3.6.27,5.3,2.89,5.43a11,11,0,0,0,2.13-.08c1.9-.28,5.9-2,9.05-8.72h0c1.92,1.22,4.32,2.59,3.89,4.13a2.76,2.76,0,0,1-1.9,2,3.4,3.4,0,0,1-1.71,0c-.58-.13-1.4-.56-1.75-.19-.54.57,1,2.58,3.53,2.92a16.31,16.31,0,0,0,4.72-.09,22.17,22.17,0,0,0,7.92-3.16c1.41,2.18,4.05,3.37,7.46,3.15q1-.07,1.9-.2a22.21,22.21,0,0,0,11.45-5.18A7.88,7.88,0,0,0,179,39.39v-.17A.33.33,0,0,0,178.88,39ZM33.81,40.37A8.35,8.35,0,0,1,34.94,35a7.44,7.44,0,0,1,1.61-1.72,1.88,1.88,0,0,1,2.17-.36c1.79,1.14-.11,3.94-2.17,5.79A7.27,7.27,0,0,1,33.81,40.37Zm72-.79a7.9,7.9,0,0,1-3.26,4,3.08,3.08,0,0,1-1.66.38c-3.27-.28-2.38-5.3-1.39-7.47a8.79,8.79,0,0,1,3-3.65,3.78,3.78,0,0,1,2.24-.66C107.16,32.39,106.67,37.6,105.83,39.59Zm56.22,1A5.34,5.34,0,0,1,162,39.4a9.07,9.07,0,0,1,1.65-4.69,8.17,8.17,0,0,1,1.43-1.38c1-.72,1.88-.9,2.53-.4,1.62,1.23-.41,3.66-2.53,5.48A19.3,19.3,0,0,1,162,40.57Z" style="fill:#fff"/></svg></a></div></div></div></div></div>                                </section>
+    </div>
+    </footer>
+
+</div>
+<div id="for-explain"></div>
+<input type="hidden" class="-currentFont" value="Roboto">
+<script src="/js/lang/ru_RU/translate.js?v=98546772348923498"></script>
+<script type="text/javascript" src="//s.siteapi.org/frontend/static/grid_9/js/vendor-0519471bd1.min.js"></script>
+<script type="text/javascript" src="//s.siteapi.org/frontend/static/grid_9/js/scripts-1b97c4e5e4.js"></script>
+<div id="vk_api_transport"></div>
+<script type="text/javascript">
+    (function () {
+        window.vkAsyncInit = function() {
+            $(document).trigger('vk-loaded');
+        };
+        setTimeout(function() {
+            var el = document.createElement("script");
+            el.type = "text/javascript";
+            el.src = "//vk.com/js/api/openapi.js";
+            el.async = true;
+            document.getElementById("vk_api_transport").appendChild(el);
+        }, 0);
+        window.fbAsyncInit = function() {
+            $(document).trigger('fb-loaded');
+        };
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    }());
+</script>
+
+</body>
+</html>
+
+
+
